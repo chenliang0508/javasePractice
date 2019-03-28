@@ -108,10 +108,14 @@ public class SortInteger {
 	}
 
 	/**
+	 * 以开始的第一个元素为基准，然后比较，比基准元素大的房子右边，小的放在左边
+	 * 然后对两部分进行递归重复操作，直到比较的元素个数为1或者0为止；
+	 * Onlgn
+	 * 比较坏的情况 任何一个元素都比基准小  O(n2)
 	 * 
 	 * @param array
 	 */
-	public void quickSort(int[] array) {
+	public void quickSort(int[] array, int left, int right) {
 
 	}
 
